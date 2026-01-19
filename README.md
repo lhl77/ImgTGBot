@@ -1,4 +1,4 @@
-# LHL's Images Bot (ImgTGBot)
+# ImgTGBot
 
 轻量的 Telegram 图床机器人，用于在聊天中快速上传图片并返回可直接使用的链接（Plain / Markdown / BBCode）。  
 基于 python-telegram-bot + requests，支持 SQLite 本地持久化用户 token。
