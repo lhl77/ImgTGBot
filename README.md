@@ -3,6 +3,8 @@
 轻量的 Telegram 图床机器人，用于在聊天中快速上传图片并返回可直接使用的链接（Plain / Markdown / BBCode）。  
 基于 python-telegram-bot + requests，支持 SQLite 本地持久化用户 token。
 
+![图片](https://cdn.jsdelivr.net/gh/lhl77/lhl-image@main/pic/20260119/70a6f7d9d80bafca0707915958412ed7.png)
+
 ## 功能简介
 - 登录（支持邮箱+密码获取 Token，或直接粘贴 Bearer Token —— 视实现版本而定）
 - 查看账户信息 (/me)
