@@ -4,7 +4,7 @@
 轻量的 Telegram 图床机器人，用于在聊天中快速上传图片并返回可直接使用的链接（Plain / Markdown / BBCode）。  
 基于 python-telegram-bot + requests，支持 SQLite 本地持久化用户 token。
 
-[截图](https://cdn.jsdelivr.net/gh/lhl77/lhl-image@main/pic/20260119/70a6f7d9d80bafca0707915958412ed7.png)
+![截图](https://raw.githubusercontent.com/lhl77/lhl-image/refs/heads/main/pic/20260120/259f47eb81a89c390d23ce958daa40f6.png)
 
 ## 功能简介
 ✅ 目前对接的图床有：LskyPro兰空图床 (开源版v1v2)
