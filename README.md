@@ -6,6 +6,9 @@
 
 ![截图](https://raw.githubusercontent.com/lhl77/lhl-image/refs/heads/main/pic/20260120/259f47eb81a89c390d23ce958daa40f6.png)
 
+## Demo Telegram Bot
+[@lhl_images_bot](https://t.me/lhl_images_bot)
+
 ## 功能简介
 ✅ 目前对接的图床有：LskyPro兰空图床 (开源版v1v2)
 
@@ -20,6 +23,7 @@
 ✅ 本地 SQLite 存储用户 token 与默认策略
 
 TODO：
+ - LskyPro+ v2收费版已经写好了，准备合并中
  - 支持多图床
  - 支持对接多个同种图床
  - 支持管理员在Telegram上配置图床
@@ -62,7 +66,8 @@ python bot.py
 本项目使用 SQLite 保存用户 token 与默认策略。数据库在模块导入时自动初始化。
 
 ## 友情链接
-聚合图床 [LHL's Images](https://img.lhl.one)
+聚合图床 [LHL's Images](https://img.lhl.one) 
+学生免费使用，聚合了SM.MS Premium，去不图床，Claw OSS，OOXX，R2，Imgur，Github等多种图床
 
 
 欢迎在 Issues 中反馈问题或提交 PR。
