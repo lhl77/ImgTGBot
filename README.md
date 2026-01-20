@@ -7,7 +7,7 @@
 [截图](https://cdn.jsdelivr.net/gh/lhl77/lhl-image@main/pic/20260119/70a6f7d9d80bafca0707915958412ed7.png)
 
 ## 功能简介
- [x] 登录（支持邮箱+密码获取 Token，或直接粘贴 Bearer Token —— 视实现版本而定）
+ [ x ] 登录（支持邮箱+密码获取 Token，或直接粘贴 Bearer Token —— 视实现版本而定）
 - 查看账户信息 (/me)
 - 设置默认存储策略（或每次选择）
 - 发送图片自动上传并返回：
