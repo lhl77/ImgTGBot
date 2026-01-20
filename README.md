@@ -15,20 +15,20 @@
 
 ✅ 设置默认存储策略（或每次选择）
 
-✅ 发送图片自动上传并返回Plain URL/Markdown/BBcode
+✅ 发送图片自动上传并返回`Plain URL`/`Markdown`/`BBcode`
 
 ✅ 本地 SQLite 存储用户 token 与默认策略
 
 TODO：
  - 支持多图床
  - 支持对接多个同种图床
+ - 支持管理员在Telegram上配置图床
+...
 
-## 要求
-- Python 3.9+
-- 依赖请参见 `requirements.txt`
-
-安装依赖：
+## 安装
 ```bash
+git clone https://github.com/lhl77/ImgTGBot
+cd ImgTGBot
 python3 -m pip install -r requirements.txt
 ```
 
@@ -42,8 +42,8 @@ python3 -m pip install -r requirements.txt
 }
 ```
 说明：
-- bot_token: Telegram Bot Token
-- lsky_api_base: 图床 API 基址（例如 https://img2.lhl.one/api/v1）
+`bot_token`: Telegram Bot Token
+`lsky_api_base`: 图床 API 基址（例如 https://img.lhl.one/api/v1）
 
 ## 运行
 在项目目录下：
@@ -51,6 +51,7 @@ python3 -m pip install -r requirements.txt
 python bot.py
 ```
 若打包为可执行文件，请确保 `config.json` 与可执行文件同目录。
+建议使用`Supervisor`,`pm2`或`systemctl`运行
 
 上传成功后机器人会以回复方式（尽量回复原图消息）返回：
 - Plain 链接
@@ -59,5 +60,9 @@ python bot.py
 
 ## 数据持久化
 本项目使用 SQLite 保存用户 token 与默认策略。数据库在模块导入时自动初始化。
+
+## 友情链接
+聚合图床 [LHL's Images](https://img.lhl.one)
+
 
 欢迎在 Issues 中反馈问题或提交 PR。
