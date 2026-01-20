@@ -27,7 +27,7 @@ TODO：
 
 ## 安装
 ```bash
-git clone https://github.com/lhl77/ImgTGBot
+git clone --depth 1 https://github.com/lhl77/ImgTGBot
 cd ImgTGBot
 python3 -m pip install -r requirements.txt
 ```
