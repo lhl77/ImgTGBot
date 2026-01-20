@@ -1,0 +1,5 @@
+{
+  "bot_name": "ImgTGBot",
+  "bot_token": "xxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "lsky_api_base": "https://YOUR_DOMAIN/api/v1"
+}
