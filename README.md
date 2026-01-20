@@ -7,6 +7,8 @@
 [截图](https://cdn.jsdelivr.net/gh/lhl77/lhl-image@main/pic/20260119/70a6f7d9d80bafca0707915958412ed7.png)
 
 ## 功能简介
+✅ 目前对接的图床有：LskyPro兰空图床 (开源版v1v2)
+
 ✅ 登录（支持邮箱+密码获取 Token，或直接粘贴 Bearer Token —— 视实现版本而定）
 
 ✅ 查看账户信息 (/me)
@@ -16,6 +18,10 @@
 ✅ 发送图片自动上传并返回Plain URL/Markdown/BBcode
 
 ✅ 本地 SQLite 存储用户 token 与默认策略
+
+TODO：
+ - 支持多图床
+ - 支持对接多个同种图床
 
 ## 要求
 - Python 3.9+
