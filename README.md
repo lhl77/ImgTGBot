@@ -6,7 +6,7 @@
 
 ![截图](https://raw.githubusercontent.com/lhl77/lhl-image/refs/heads/main/pic/20260120/259f47eb81a89c390d23ce958daa40f6.png)
 
-## Demo Telegram Bot
+## Demo Telegram Bot （为Lsky Pro+ v2优化，包含增值内容和WebApp登录）
 [@lhl_images_bot](https://t.me/lhl_images_bot)
 
 ## 功能简介
